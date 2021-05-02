@@ -1,5 +1,11 @@
 body{
 	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+h1, h2 {font-family: 'Freckle Face', cursive;
 }
 
 header{
@@ -11,11 +17,11 @@ header{
 
 header h1{
 	font-size: 57px;
-	color: yellow;
+	color: #FF8000;
 }
 
 header p{
-	color: yellow;
+	color: #ffffff;
 	font-size: 34px;
 }
 header img{
@@ -26,5 +32,40 @@ header img{
 }
 
 main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 34px;
+	color: #0040FF;
+}
+
+a {
+	color: #FF8000;
+}
+a:hover {
+	color: #ffffff;
+	background-color: #0040FF;
+}
+
+footer{
+	background-color: #FF8000;
 	text-align: center;
+	color: white;
+}
+footer p{margin: 0;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
 }
